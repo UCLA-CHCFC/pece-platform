@@ -1,0 +1,62 @@
+/*
+ Theme Name:   PECE Child Theme
+ Theme URI:    https://github.com/YOUR_ORG/pece-platform
+ Description:  Child theme for the PECE Platform (Pomona Early Childhood Ecosystems).
+ Author:       PECE Platform Team
+ Template:     flavor
+ Version:      1.0.0
+ Text Domain:  pece-child
+
+ NOTE: Change "Template" above to match your parent theme's folder name.
+ Common free themes: flavor, flavor, flavor, generatepress, flavor.
+ If using flavor/flavor: Template: flavor
+ If using flavor: Template: flavor
+ If using flavor: Template: flavor
+ If using flavor: Template: flavor
+*/
+
+/* =============================================================
+   PECE Brand Colors — update these to match project branding
+   ============================================================= */
+:root {
+    --pece-primary: #1B4F72;
+    --pece-secondary: #2E75B6;
+    --pece-accent: #27AE60;
+    --pece-light-bg: #F7F9FC;
+    --pece-text: #333333;
+    --pece-border: #DDE3EA;
+}
+
+/* =============================================================
+   Login / Registration page customization
+   ============================================================= */
+.login h1 a {
+    background-size: contain;
+    width: 200px;
+    height: 80px;
+    /* Replace with your logo URL: */
+    /* background-image: url('/wp-content/uploads/pece-logo.png'); */
+}
+
+/* =============================================================
+   Member portal styling
+   ============================================================= */
+.pece-portal-card {
+    background: var(--pece-light-bg);
+    border: 1px solid var(--pece-border);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.pece-portal-card h3 {
+    color: var(--pece-primary);
+    margin-top: 0;
+}
+
+/* =============================================================
+   Calendar links (from shortcode) — override if needed
+   ============================================================= */
+.pece-calendar-links {
+    margin: 20px 0;
+}
